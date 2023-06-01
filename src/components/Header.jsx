@@ -43,7 +43,7 @@ export default function Header() {
         };
     }, []);
     return (
-        <div className="navbar fixed z-50 bg-base-100 shadow-lg  px-12 xl:px-12 max-w-[100vw]">
+        <div className="navbar fixed z-50 bg-base-100 shadow-lg  px-2 md:px-12 max-w-[100vw]">
             <div className="navbar-start">
                 <a href="#home" className="btn btn-ghost  normal-case text-xl">
                     Hữu Hoàng's Portfolio

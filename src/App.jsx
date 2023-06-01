@@ -17,7 +17,7 @@ function App() {
     return (
         <div className="w-full  overflow-x-hidden h-full max-w-[100vw] flex flex-col gap-y-5 min-h-screen">
             <Header />
-            <main className=" px-12 xl:px-12">
+            <main className=" px-4 md:px-12">
                 <Home />
                 <AboutMe />
                 <Projects />
