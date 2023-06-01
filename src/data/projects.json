@@ -1,0 +1,16 @@
+[
+    {
+        "imagePreview": "https://cdn.discordapp.com/attachments/1109544174711218248/1113503394007625889/blogpreview.png",
+        "title": "Blog app",
+        "linkDemo": "https://blog.huuhoang.dev/",
+        "linkGithub": "https://github.com/Mirai3103/Blog",
+        "description": "My project is a personal blog website developed using C# programming language and MySQL database. The goal is to enable writing and publishing blog posts. The project utilizes ASP.NET 6 Core MVC and Entity Framework, and includes key features such as CRUD operations for posts and tags, login and registration functionality. In the future, I plan to develop a commenting feature to enhance interaction with readers. This project allows me to share my knowledge and experiences through blog posts on my personal website."
+    },
+    {
+        "imagePreview": "https://cdn.discordapp.com/attachments/1109544174711218248/1113772141314318356/doctruyen.png",
+        "title": "Comic reader",
+        "linkDemo": "https://doctruyen.huuhoang.dev/",
+        "linkGithub": "https://github.com/Mirai3103/doc-truyen",
+        "description": "My project is a web application for reading comic books, where users can upload and read comics. I have utilized Typescript and MongoDB for the database in the development of this project, with NestJS for the backend and ReactJS for the user interface. The website offers features such as comic CRUD operations, trending comics, user registration, login, and role-based authorization. Data caching is also implemented to enhance performance. To automate the process of updating comics, I have incorporated a Cron job to crawl and fetch comics from another website :v."
+    }
+]
