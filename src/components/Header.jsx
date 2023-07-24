@@ -93,7 +93,7 @@ export default function Header() {
                         ></path>
                     </svg>
                 </button>
-                <div className="dropdown">
+                <div className="dropdown  dropdown-bottom dropdown-end">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -112,16 +112,19 @@ export default function Header() {
                     </label>
                     <ul
                         tabIndex={0}
-                        className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+                        className="menu menu-compact shadow-lg  border-base-300 dropdown-content  mt-3 p-2  bg-base-100 rounded-box w-52"
                     >
                         <li>
-                            <a>Item 1</a>
-                        </li>
-                        <li tabIndex={0}>
-                            <a className="justify-between">Parent</a>
+                            <a href="#home">Home</a>
                         </li>
                         <li>
-                            <a>Item 3</a>
+                            <a href="#about-me">About me</a>
+                        </li>
+                        <li>
+                            <a href="#projects">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>

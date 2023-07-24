@@ -115,6 +115,11 @@
 html {
     scroll-behavior: smooth;
 }
+
+.stroke-base {
+    /* hsl(var(--b1)/var(--tw-text-opacity)) */
+    stroke: hsl(var(--bc) / var(--tw-text-opacity));
+}
 #content-wrapper {
     color: #fff;
     position: fixed;

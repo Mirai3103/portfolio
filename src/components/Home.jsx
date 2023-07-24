@@ -24,7 +24,14 @@ export default function Home(props) {
                     <h6 className="text-lg">Welcome to my portfolio</h6>
                     <h3 className="font-bold text-3xl">Hi! I'm Hoàng - a Backend Web Developer from Viet Nam</h3>
                     <div className="flex ml-4 md:mt-8 w-full mt-14 mb-2  justify-start">
-                        <button className="btn px-3 md:px-12 btn-primary">Contact me</button>
+                        <button
+                            onClick={() => {
+                                window.location.href = "#contact";
+                            }}
+                            className="btn px-3 md:px-12 btn-primary"
+                        >
+                            Contact me
+                        </button>
                     </div>
                 </div>
             </div>

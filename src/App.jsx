@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 function App() {
     React.useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
                 <Home />
                 <AboutMe />
                 <Projects />
+                <Contact />
             </main>
             <Footer />
         </div>

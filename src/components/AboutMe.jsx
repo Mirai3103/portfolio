@@ -26,7 +26,12 @@ export default function AboutMe() {
                         noteworthy software products that deliver real value to users.
                     </p>
                     <div className="mt-6 md:mt-12 mx-auto md:ml-0" data-aos="fade-up">
-                        <button className="btn btn-secondary flex justify-center items-center gap-x-5 ">
+                        <a
+                            href="https://www.topcv.vn/xem-cv/UVVUBwdWBVZSAlJWV1JYX1RSAAhVVQdSAF8GVgab55"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="btn btn-secondary flex justify-center items-center gap-x-5 "
+                        >
                             <span>Download my CV</span>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +51,7 @@ export default function AboutMe() {
                                 <path d="M12 17v-6" />
                                 <path d="M9.5 14.5l2.5 2.5l2.5 -2.5" />
                             </svg>
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -18,7 +18,7 @@ export default function Projects(props) {
                     return (
                         <ProjectCard
                             imagePreview={item.imagePreview}
-                            key={item.id}
+                            key={index}
                             title={item.title}
                             description={item.description}
                             linkDemo={item.linkDemo}
