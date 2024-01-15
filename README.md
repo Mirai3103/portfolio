@@ -1,6 +1,6 @@
-# Tên dự án
+# Portfolio
 
-Mô tả ngắn gọn về dự án của bạn.
+Dự án portfolio được xây dựng bằng React và sử dụng Tailwind CSS làm thư viện CSS.
 
 ## Yêu cầu
 
