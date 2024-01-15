@@ -16,7 +16,7 @@
     {
         "imagePreview": "https://cdn.discordapp.com/attachments/745580405088059442/1132985463834157167/image.png",
         "title": "Url shortener",
-        "linkDemo": "https://shorten.huuhoang.dev/",
+        "linkDemo": "https://shortener.huuhoang.dev/",
         "linkGithub": "https://github.com/Mirai3103/rut-gon-link",
         "description": "The \"URL Shortener Website\" project uses Next.js and MongoDB to help users shorten long URLs into shorter and more memorable ones. Users can input a long URL to create a shortened link with either a custom or random ID, and then manage their list of shortened links (if they are logged in). The system automatically tracks the number of visits for each shortened link. The project is built using Next.js and MongoDB to enhance performance and user experience."
     }
