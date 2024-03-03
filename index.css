@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.skill img {
+  width: 40px;
+  height: 40px;
+}
+
+.skill h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.skill h3 {
+  font-family: "Quicksand", serif;
+  margin-bottom: 12px;
+  margin-top: 16px;
+}
+#colorlib-aside .colorlib-footer li {
+  @apply tw-rounded-full tw-p-2 tw-border tw-border-slate-400 tw-bg-slate-100;
+}
